@@ -12,9 +12,9 @@ Adaptação de um projeto pessoal para aplicar os conceitos da biblioteca **tkin
 - Adiciona campos de entrada (`Entry`) para o usuário inserir o peso (em kg) e a altura (em metros).
 - Um botão "Calcular" aciona a função de cálculo do IMC.
 - A função obtém os valores dos campos de texto, converte-os para números e calcula o IMC com a fórmula:  
-  \[
-  \text{IMC} = \frac{\text{peso}}{\text{altura}^2}
-  \]
+  
+IMC = peso / altura²
+ 
 - O resultado é exibido em um rótulo (`Label`) na mesma janela.
 - Possui um tratamento simples de erro para caso o usuário insira um valor não numérico.
 
